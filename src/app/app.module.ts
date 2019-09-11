@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule } from './modules/material/material.module';
+import { TypographyComponent } from './components/typography/typography.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TypographyComponent
   ],
   imports: [
     BrowserModule,
