@@ -9,12 +9,14 @@ import { MaterialModule } from './modules/material/material.module';
 
 import { TypographyComponent } from './components/typography/typography.component';
 import { ButtonComponent } from './components/button/button.component';
+import { IconComponent } from './components/icon/icon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TypographyComponent,
-    ButtonComponent
+    ButtonComponent,
+    IconComponent
   ],
   imports: [
     BrowserModule,
