@@ -4,6 +4,7 @@ import { TypographyComponent } from './components/typography/typography.componen
 import { ButtonComponent } from './components/button/button.component';
 import { IconComponent } from './components/icon/icon.component';
 import { BadgeComponent } from './components/badge/badge.component';
+import { SpinnerComponent } from './components/spinner/spinner.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'button', component: ButtonComponent },
   { path: 'icon', component: IconComponent },
   { path: 'badge', component: BadgeComponent },
+  { path: 'spinner', component: SpinnerComponent },
 ];
 
 @NgModule({
