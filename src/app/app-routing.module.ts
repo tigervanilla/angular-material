@@ -13,6 +13,7 @@ import { GridComponent } from './components/grid/grid.component';
 import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { StepperComponent } from './components/stepper/stepper.component';
 
 
 const routes: Routes = [
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'expansion-panel', component: ExpansionPanelComponent },
   { path: 'card', component: CardsComponent },
   { path: 'tabs', component: TabsComponent },
+  { path: 'stepper', component: StepperComponent },
 ];
 
 @NgModule({
