@@ -9,6 +9,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ListComponent } from './components/list/list.component';
+import { GridComponent } from './components/grid/grid.component';
 
 
 const routes: Routes = [
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'sidenav', component: SidenavComponent },
   { path: 'menu', component: MenuComponent },
   { path: 'list', component: ListComponent },
+  { path: 'grid', component: GridComponent },
 ];
 
 @NgModule({

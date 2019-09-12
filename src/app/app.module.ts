@@ -17,6 +17,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ListComponent } from './components/list/list.component';
+import { GridComponent } from './components/grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ListComponent } from './components/list/list.component';
     ToolbarComponent,
     SidenavComponent,
     MenuComponent,
-    ListComponent
+    ListComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,
