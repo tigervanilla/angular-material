@@ -5,6 +5,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { IconComponent } from './components/icon/icon.component';
 import { BadgeComponent } from './components/badge/badge.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'icon', component: IconComponent },
   { path: 'badge', component: BadgeComponent },
   { path: 'spinner', component: SpinnerComponent },
+  { path: 'toolbar', component: ToolbarComponent },
 ];
 
 @NgModule({
