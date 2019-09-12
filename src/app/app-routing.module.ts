@@ -12,6 +12,7 @@ import { ListComponent } from './components/list/list.component';
 import { GridComponent } from './components/grid/grid.component';
 import { ExpansionPanelComponent } from './components/expansion-panel/expansion-panel.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'grid', component: GridComponent },
   { path: 'expansion-panel', component: ExpansionPanelComponent },
   { path: 'card', component: CardsComponent },
+  { path: 'tabs', component: TabsComponent },
 ];
 
 @NgModule({

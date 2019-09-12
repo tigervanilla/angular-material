@@ -12,6 +12,7 @@ import {
   MatGridListModule,
   MatExpansionModule,
   MatCardModule,
+  MatTabsModule,
 } from '@angular/material';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
@@ -31,6 +32,7 @@ const MaterialComponents = [
   MatGridListModule,
   MatExpansionModule,
   MatCardModule,
+  MatTabsModule,
 ];
 
 @NgModule({
