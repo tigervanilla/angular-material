@@ -8,6 +8,7 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { ListComponent } from './components/list/list.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'toolbar', component: ToolbarComponent },
   { path: 'sidenav', component: SidenavComponent },
   { path: 'menu', component: MenuComponent },
+  { path: 'list', component: ListComponent },
 ];
 
 @NgModule({
