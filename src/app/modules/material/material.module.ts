@@ -14,6 +14,8 @@ import {
   MatCardModule,
   MatTabsModule,
   MatStepperModule,
+  MatFormFieldModule,
+  MatInputModule,
 } from '@angular/material';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
@@ -35,6 +37,8 @@ const MaterialComponents = [
   MatCardModule,
   MatTabsModule,
   MatStepperModule,
+  MatFormFieldModule,
+  MatInputModule,
 ];
 
 @NgModule({
