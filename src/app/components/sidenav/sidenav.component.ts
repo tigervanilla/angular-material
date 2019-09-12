@@ -9,7 +9,7 @@ export class SidenavComponent implements OnInit {
   opened2 = true;
   state = 'open';
 
-  setState(state:string) {
+  setState(state: string) {
     this.state = state;
   }
 
