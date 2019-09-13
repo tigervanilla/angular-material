@@ -17,6 +17,7 @@ import { StepperComponent } from './components/stepper/stepper.component';
 import { InputComponent } from './components/input/input.component';
 import { SelectComponent } from './components/select/select.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
+import { CheckboxComponent } from './components/checkbox/checkbox.component';
 
 
 const routes: Routes = [
@@ -37,6 +38,7 @@ const routes: Routes = [
   { path: 'input', component: InputComponent },
   { path: 'select', component: SelectComponent },
   { path: 'autocomplete', component: AutocompleteComponent },
+  { path: 'checkbox', component: CheckboxComponent },
 ];
 
 @NgModule({

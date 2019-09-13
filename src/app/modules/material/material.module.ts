@@ -18,6 +18,8 @@ import {
   MatInputModule,
   MatSelectModule,
   MatAutocompleteModule,
+  MatCheckboxModule,
+  MatRadioModule,
 } from '@angular/material';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
@@ -43,6 +45,8 @@ const MaterialComponents = [
   MatInputModule,
   MatSelectModule,
   MatAutocompleteModule,
+  MatCheckboxModule,
+  MatRadioModule,
 ];
 
 @NgModule({
