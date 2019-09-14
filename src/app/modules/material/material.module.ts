@@ -23,6 +23,7 @@ import {
   MatDatepickerModule,
   MatNativeDateModule,
   MatTooltipModule,
+  MatSnackBarModule,
 } from '@angular/material';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
@@ -53,6 +54,7 @@ const MaterialComponents = [
   MatDatepickerModule,
   MatNativeDateModule,
   MatTooltipModule,
+  MatSnackBarModule,
 ];
 
 @NgModule({
