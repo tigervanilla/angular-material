@@ -18,6 +18,7 @@ import { InputComponent } from './components/input/input.component';
 import { SelectComponent } from './components/select/select.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
 
 
 const routes: Routes = [
@@ -39,6 +40,7 @@ const routes: Routes = [
   { path: 'select', component: SelectComponent },
   { path: 'autocomplete', component: AutocompleteComponent },
   { path: 'checkbox', component: CheckboxComponent },
+  { path: 'datepicker', component: DatepickerComponent },
 ];
 
 @NgModule({
