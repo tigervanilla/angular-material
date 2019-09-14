@@ -22,6 +22,7 @@ import {
   MatRadioModule,
   MatDatepickerModule,
   MatNativeDateModule,
+  MatTooltipModule,
 } from '@angular/material';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
@@ -51,6 +52,7 @@ const MaterialComponents = [
   MatRadioModule,
   MatDatepickerModule,
   MatNativeDateModule,
+  MatTooltipModule,
 ];
 
 @NgModule({
