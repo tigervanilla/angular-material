@@ -21,6 +21,7 @@ import { CheckboxComponent } from './components/checkbox/checkbox.component';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
 import { TooltipComponent } from './components/tooltip/tooltip.component';
 import { SnackbarComponent } from './components/snackbar/snackbar.component';
+import { DialogueComponent } from './components/dialogue/dialogue.component';
 
 
 const routes: Routes = [
@@ -45,6 +46,7 @@ const routes: Routes = [
   { path: 'datepicker', component: DatepickerComponent },
   { path: 'tooltip', component: TooltipComponent },
   { path: 'snackbar', component: SnackbarComponent },
+  { path: 'dialogue', component: DialogueComponent }
 ];
 
 @NgModule({
