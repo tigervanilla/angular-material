@@ -44,3 +44,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Backend Files
+backend/node_modules
+backend/OpenFin
